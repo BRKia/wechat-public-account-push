@@ -21,6 +21,7 @@ const TEMPLATE_CONFIG = [
       {{comprehensive_horoscope.DATA}}
       
       ---
+      
       {{birthday_message.DATA}}
       
       ---
