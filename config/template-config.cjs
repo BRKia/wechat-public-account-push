@@ -2,23 +2,21 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '蓉悦宝贝, 早上好哇！',
     desc: `
       **{{date.DATA}}**
-      
-      下个休息日：{{holidaytts.DATA}}
-      
+     
       ---
       
       城市：{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      今日天气：{{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      今日气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      今日风向: {{wind_direction.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      今日风级: {{wind_scale.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
