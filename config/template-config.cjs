@@ -4,19 +4,23 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '蓉悦宝贝, 早上好哇！',
     desc: `
-      **{{date.DATA}}**
+      🗓️**{{date.DATA}}**
      
       ---
       
       城市：{{city.DATA}}
       
-      今日天气：{{weather.DATA}}
+      今日天气☁️：{{weather.DATA}}
       
-      今日气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      今日气温(最高/最低)🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
       今日风向: {{wind_direction.DATA}}
       
       今日风级: {{wind_scale.DATA}}
+      
+      湿度：{{shidu.DATA}}
+      
+      空气质量：{{aqi.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
@@ -26,9 +30,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{moment_copyrighting.DATA}}
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      💗{{moment_copyrighting.DATA}}
     `
   },
   {
@@ -46,6 +48,34 @@ const TEMPLATE_CONFIG = [
       成功用户: {{success_post_ids.DATA}}
       
       失败用户: {{fail_post_ids.DATA}}
+
+      🗓️**{{date.DATA}}**
+     
+      ---
+      
+      城市：{{city.DATA}}
+      
+      今日天气☁️：{{weather.DATA}}
+      
+      今日气温(最高/最低)🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      今日风向: {{wind_direction.DATA}}
+      
+      今日风级: {{wind_scale.DATA}}
+      
+      湿度：{{shidu.DATA}}
+      
+      空气质量：{{aqi.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      {{birthday_message.DATA}}
+      
+      ---
+      
+      💗{{moment_copyrighting.DATA}}
     `
   },
 ]
