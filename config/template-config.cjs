@@ -18,10 +18,6 @@ const TEMPLATE_CONFIG = [
       
       今日风级: {{wind_scale.DATA}}
       
-      湿度：{{shidu.DATA}}
-      
-      空气质量：{{aqi.DATA}}
-      
       {{comprehensive_horoscope.DATA}}
       
       ---
