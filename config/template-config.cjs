@@ -26,7 +26,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      💗{{moment_copyrighting.DATA}}
+      💗今天比昨天更更更喜欢尼啦！
     `
   },
   {
