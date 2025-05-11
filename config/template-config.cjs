@@ -23,10 +23,6 @@ const TEMPLATE_CONFIG = [
       ---
       
       {{birthday_message.DATA}}
-      
-      ---
-      
-      💗今天比昨天更更更喜欢尼啦！
     `
   },
   {
