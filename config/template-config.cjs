@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '早上好哇，蓉悦小法斯🔮',
+    title: '早上好哇，蓉悦宝宝🎅',
     desc: `
       🗓️**{{date.DATA}}**
      
@@ -10,7 +10,7 @@ const TEMPLATE_CONFIG = [
       
       城市：{{city.DATA}}
       
-      今日天气☁️：{{weather.DATA}}
+      天气☁️~：{{weather.DATA}}
       
       今日气温(最高/最低)🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
